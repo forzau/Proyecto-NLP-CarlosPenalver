@@ -1,0 +1,30 @@
+# Entorno del proyecto: Python 3.12.
+# Instalar primero PyTorch con CUDA en el mismo entorno:
+# https://pytorch.org/get-started/locally/
+# torch no se fija aqui; sentence-transformers lo requiere como dependencia.
+# Si falta, pip puede instalar una variante que no sea la deseada para la GPU.
+# Fijar las versiones exactas despues de validar el entorno completo.
+
+# Datos, lectura filtrada de Parquet y listado Excel.
+numpy
+pandas
+pyarrow
+openpyxl
+
+# Visualizacion y analisis.
+matplotlib
+seaborn
+scikit-learn
+
+# Ejecucion del notebook.
+jupyterlab
+ipykernel
+
+# Sentimiento y embeddings: tecnicas previstas, sin descargar modelos.
+transformers
+sentence-transformers
+
+# Topic modeling conjunto para comparar empresas.
+bertopic
+umap-learn
+hdbscan
